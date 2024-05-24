@@ -1,0 +1,25 @@
+# Common exclusions for all projects
+*.log
+*.tmp
+.DS_Store
+*.swp
+.vscode/
+.idea/
+
+# Node.js specific exclusions
+node-projects/node_modules/
+node-projects/dist/
+node-projects/**/*.env
+
+# Python specific exclusions
+python-projects/**/__pycache__/
+python-projects/**/instance/
+python-projects/**/*.env
+python-projects/**/*.pyc
+
+# Java specific exclusions
+java-projects/**/target/
+java-projects/**/.settings/
+java-projects/**/.project
+java-projects/**/.classpath
+java-projects/**/*.iml
