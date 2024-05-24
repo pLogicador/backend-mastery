@@ -32,11 +32,11 @@ The project utilizes the following npm packages:
 
 3. Set up environment variables by creating a .env file:
 
-  DB_USER=yourMongoDBUser
-  
-  DB_PASS=yourMongoDBPassword
-  
-  SECRET=yourJWTSecret
+    **DB_USER=yourMongoDBUser**
+    
+    **DB_PASS=yourMongoDBPassword**
+    
+    **SECRET=yourJWTSecret**
 
 4. Start the server:
 
