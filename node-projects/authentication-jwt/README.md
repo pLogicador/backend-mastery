@@ -54,34 +54,38 @@ The project utilizes the following npm packages:
 **User Registration**
 * **POST /auth/register**: Registers a new user with name, email, and password.
   
-  Request body:
-  {
-    "name": "User Name",
-    "email": "user@example.com",
-    "password": "password123",
-    "confirmpassword": "password123"
-  }
+  * Request body:
+    
+   {
+     "name": "User Name",
+     "email": "user@example.com",
+     "password": "password123",
+     "confirmpassword": "password123"
+   }
 
-  Response:
-  {
-  "msg": "User created successfully!"
-  }
+  * Response:
+  
+   {
+   "msg": "User created successfully!"
+   }
 
 
   **User Login**
   * **POST /auth/login**: Logs in a user and provides a JWT token.
     
-    Request body:
-    {
-      "email": "user@example.com",
-      "password": "password123"
-    }
+    * Request body:
+    
+     {
+       "email": "user@example.com",
+       "password": "password123"
+     }
 
-    Response:
-    {
-      "msg": "Authentication completed successfully",
-      "token": "yourJWTToken"
-    }
+    * Response:
+    
+     {
+       "msg": "Authentication completed successfully",
+       "token": "yourJWTToken"
+     }
 
     **Protected Route**
     * **GET /user/:id**: Access user data with a valid JWT token.
