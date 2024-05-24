@@ -70,8 +70,8 @@ The project utilizes the following npm packages:
    }
 
 
-  **User Login**
-  * **POST /auth/login**: Logs in a user and provides a JWT token.
+**User Login**
+ * **POST /auth/login**: Logs in a user and provides a JWT token.
     
     * Request body:
     
@@ -87,8 +87,8 @@ The project utilizes the following npm packages:
        "token": "yourJWTToken"
      }
 
-    **Protected Route**
-    * **GET /user/:id**: Access user data with a valid JWT token.
+**Protected Route**
+   * **GET /user/:id**: Access user data with a valid JWT token.
 
       Headers:
       {
