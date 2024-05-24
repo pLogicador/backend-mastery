@@ -22,18 +22,20 @@ The project utilizes the following npm packages:
 ## Installation
 1. Clone the repository:
 
-  git clone https://github.com/pLogicador/backend-mastery
-  cd simple-auth-system
+  * git clone https://github.com/pLogicador/backend-mastery
+  * cd simple-auth-system
   
 2. Install dependencies:
 
-  npm install
+  * npm install
 
 
 3. Set up environment variables by creating a .env file:
 
   DB_USER=yourMongoDBUser
+  
   DB_PASS=yourMongoDBPassword
+  
   SECRET=yourJWTSecret
 
 4. Start the server:
