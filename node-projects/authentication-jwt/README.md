@@ -40,7 +40,7 @@ The project utilizes the following npm packages:
 
 4. Start the server:
 
-  npm run dev
+  * npm run dev
 
 ## API Endpoints
   **Public Route**
