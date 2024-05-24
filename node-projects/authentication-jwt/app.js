@@ -1,3 +1,7 @@
+/*
+    Copyright © pLogicador - Pedro Miranda
+*/
+
 /* imports */
 require('dotenv').config();
 const express = require('express');
